@@ -3,22 +3,30 @@ html {
     background-size: cover;
   }
   
-  body{
-    text-align: center;
-  }
-  
-  .active {
+body {
+  text-align: center;
+}
+  #active {
     text-decoration: solid underline white 3px;  
-    margin-right: 400px;
+    color: red;
+  }
+
+  #about-btn {
+    color: blue;
+  }
+
+  #quiz-btn {
+    color: red;
   }
   
-  /* lols */
-  .webpage-btn {
-    color: red;
+  .webpage-btn a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
     font-weight: bold;
     letter-spacing: 0.25px;
+    text-decoration: none;
+    margin-left: 120px;
+    margin-right: 120px;
   }
   
   h1 {
@@ -31,7 +39,7 @@ html {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     letter-spacing: 0.25px;
     font-weight: bolder;
-    margin-top: 270px;
+    margin-top: 360px;
     color: white;
     font-size: 45px;
     margin-bottom: 0px;

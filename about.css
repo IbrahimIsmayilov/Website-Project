@@ -1,10 +1,28 @@
-.active {
-    text-decoration: solid underline white 10px; 
-    color: red;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-    letter-spacing: 0.25px;
-    margin-right: 400px;
-  }
-  
+#active {
+  color: red;
+}
+
+#about-btn {
+  color: blue;
+  text-decoration: solid underline white 3px;  
+}
+
+#quiz-btn {
+  color: red;
+}
+
+.webpage-btn a {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 0.25px;
+  text-decoration: none;
+}
+.webpage-btn {
+  text-align: center;
+}
+
+.webpage-btn a  {
+  margin-left: 100px;
+  margin-right: 100px;
+}

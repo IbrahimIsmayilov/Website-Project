@@ -15,7 +15,7 @@ body {
 }
 
 #active {
-  color: red;
+  color: blue;
   text-decoration: solid underline black 3px;  
 }
 
@@ -39,14 +39,13 @@ body {
 
 #about-title {
   font-variant: small-caps;
-  background-color: rgb(105,105,105);
-  color: white;
+  color: black;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
-  border-radius: 15px;
-  letter-spacing: 1px;
+  letter-spacing: 0.7px;
   margin-top: 50px;
   font-size: 50px;
+  text-decoration: underline;
 }
 
 #topic-title1 {

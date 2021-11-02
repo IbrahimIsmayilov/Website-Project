@@ -20,6 +20,7 @@ body {
   }
   
   .webpage-btn a {
+    font-variant: small-caps;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
     font-weight: bold;
@@ -27,12 +28,6 @@ body {
     text-decoration: none;
     margin-left: 120px;
     margin-right: 120px;
-  }
-  
-  h1 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    letter-spacing: 0.25px;
-    font-weight: bolder;
   }
   
   .title-text {
@@ -43,9 +38,11 @@ body {
     color: white;
     font-size: 90px;
     margin-bottom: 0px;
+    font-variant: small-caps;
   }
   
   p {
+    font-variant: small-caps;
     font-family: Georgia;
     font-style: italic;
     color: white; 

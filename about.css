@@ -8,11 +8,10 @@ body {
   border-radius: 25px;
   margin: 40px auto;
   padding: 20px 85px;
-  width: 600px;
+  width: 900px;
 }
 #home-btn {
   color: red;
-  
 }
 
 #active {
@@ -29,18 +28,17 @@ body {
   font-size: 14px;
   font-weight: bold;
   letter-spacing: 0.25px;
+  margin-left: 100px;
+  margin-right: 100px;
   text-decoration: none;
 }
 .webpage-btn {
+  font-variant: small-caps;
   text-align: center;
 }
 
-.webpage-btn a  {
-  margin-left: 100px;
-  margin-right: 100px;
-}
-
 #about-title {
+  font-variant: small-caps;
   background-color: rgb(105,105,105);
   color: white;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -51,20 +49,27 @@ body {
   font-size: 50px;
 }
 
-#leader-title1 {
+#topic-title1 {
+  font-variant: small-caps;
   text-align: center;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
   margin-top: 45px;
-  font-size: 25px;
+  font-size: 32.5px;
   letter-spacing: -1px;
   color: darkblue;
 }
 
-#leader-title2 {
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18.5px;
+}
+
+#topic-title2 {
+  font-variant: small-caps;
   text-align: center;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
   margin-top: 45px;
-  font-size: 25px;
+  font-size: 32.5px;
   letter-spacing: -1px;
   color: darkred;
 }

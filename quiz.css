@@ -4,43 +4,42 @@ html {
 }
 
 body {
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(255,255,255,0.95);
     border-radius: 25px;
     margin: 40px auto;
     padding: 20px 85px;
-    width: 600px;
-}
-
-
-#home-btn {
+    width: 900px;
+  }
+  #home-btn {
+    color: red; 
+  }
+  
+  #about-btn {
     color: red;
-}
-
-#about-btn {
-    color: blue;
-}
-
-#active {
-    text-decoration: solid underline black 3px;
+  }
+  
+  #active {
+    text-decoration: solid underline black 3px;  
     color: red;
-}
-
-.webpage-btn a {
+  }
+  
+  .webpage-btn a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
     font-weight: bold;
     letter-spacing: 0.25px;
+    margin-left: 100px;
+    margin-right: 100px;
     text-decoration: none;
-    margin-left: 120px;
-    margin-right: 120px;
-}
-
-.webpage-btn {
+  }
+  .webpage-btn {
+    font-variant: small-caps;
     text-align: center;
-}
-
-#quiz-title {
-    background-color: rgb(105, 105, 105);
+  }
+   
+  #quiz-title {
+    font-variant: small-caps;
+    background-color: rgb(105,105,105);
     color: white;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
@@ -48,4 +47,4 @@ body {
     letter-spacing: 1px;
     margin-top: 50px;
     font-size: 50px;
-}
+  }

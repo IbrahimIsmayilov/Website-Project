@@ -21,11 +21,11 @@ function results() {
     let questionInputEl3 = questionInputEl3.value.toLowerCase();
     let questionInputEl4 = questionInputEl4.value.toLowerCase();
 
-    if (questionInputEl1 === "usa" || questionInputEl1 === "united states of america" ||questionInputEl1 === "united states" ) {
+    if (questionInputEl1 === "usa" || questionInputEl1 === "united states of america") {
+        // Why can I not add a third ||
         answerOutputEl1.innerHTML = "Correct!"
-        questionInputEl1.style.border-color = "green";
+        questionInputEl1.style.border-color === "green";
     } else {
-        questionInputEl1.style.border-color = "blue";
-
+        alert("usuck")
     }
 }

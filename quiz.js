@@ -16,16 +16,12 @@ submitBtnEl.addEventListener("click", results);
 
 // Event Function
 function results() {
-    let questionInputEl1 = questionInputEl1.value.toLowerCase();
-    let questionInputEl2 = questionInputEl2.value.toLowerCase();
-    let questionInputEl3 = questionInputEl3.value.toLowerCase();
-    let questionInputEl4 = questionInputEl4.value.toLowerCase();
+    let question1 = questionInputEl1.value.toLowerCase();
+    let question2 = questionInputEl2.value.toLowerCase();
+    let question3 = questionInputEl3.value.toLowerCase();
+    let question4 = questionInputEl4.value.toLowerCase();
 
-    if (questionInputEl1 === "usa" || questionInputEl1 === "united states of america") {
-        // Why can I not add a third ||
-        answerOutputEl1.innerHTML = "Correct!"
-        questionInputEl1.style.border-color === "green";
-    } else {
-        alert("usuck")
-    }
+    if (question1 === "usa" || question1 === "united states of america") {
+        answerOutputEl2.innerHTML = "Correct!"
+
 }

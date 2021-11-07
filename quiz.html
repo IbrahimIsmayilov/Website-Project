@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Home- British Empire</title>
+  <title>Home-British Empire</title>
   <link href="quiz.css" rel="stylesheet" type="text/css" />
 </head>
 
@@ -12,7 +12,6 @@
   <div class="webpage-btn">
     <a id="home-btn" href="index.html">Home</a>
     <a id="about-btn" href="about.html">About</a>
-    <!-- How to remove the bad underlining on the quiz button? -->
     <a id="active" href="quiz.html">Quiz</a>
   </div>
 
@@ -20,41 +19,40 @@
   <hr>
 
   <h2>Question I</h2>
-  <h3>Which global power did the British Empire take a loan from after WW2?  </h3>
-  <h4>Answer:<input id="question-input-1" type="text"></h4>
-  <p id="answer-output-1" class="answer-output"></p>
+  <h3>Which global power did the British Empire take a loan from after WW2?</h3>
+  <h4>Answer:<input id="questionInput1" type="text"></h4>
+  <p id="answerOutput1"></p>
   <img id="flag.jpg" src="imgs/flag.jpg" alt="USA Flag">
   <!-- USA or United States of America or United States -->
   <hr>
   
   <h2>Question II</h2>
   <h3>Which World War inflicted a huge financial toll on the the British Empire?</h3>
-  <h4>Answer:<input id="question-input-2" type="text"></h4>
-  <p id="answer-output-2" class="answer-output"></p>
+  <h4>Answer:<input id="questionInput2" type="text"></h4>
+  <p id="answerOutput2"></p>
   <!-- World War Two or World War 2 or WW2 -->
   <hr>
 
   <h2>Question III</h2>
   <h3>How many whole centuries did the British empire last as the foremost global empire in the world?</h3>
-  <h4>Answer:<input id="question-input-3" type="text"></h4>
-  <p id="answer-output-3" class="answer-output"></p>
+  <h4>Answer:<input id="questionInput3" type="text"></h4>
+  <p id="answerOutput3"></p>
   <!-- 1 -->
   <hr>
 
   <h2>Question IV</h2>
   <h3>When did the Decolonisation period of the British Empire begin?</h3>
-  <h4>Answer:<input id="question-input-4" type="text"></h4>
-  <!-- 1945 -->
-  <p id="answer-output-4" class="answer-output">
-    <br>
+  <h4>Answer:<input id="questionInput4" type="text"></h4>
+  <p id="answerOutput4">
   </p>
-  <button id="submit-btn">Submit</button>
+  <!-- 1945 -->
+  <button id="btn">Submit</button>
   <hr>
 
-  <h5 id="missed-q">You have missed 1 or more questions. A try is better than nothing, bud.</h5>
-  <h5><span id="score-fraction"></span> <br>
-    <span id="score-percentage"></span>
-  </h5>
+  <h5 id="missedQ">You have missed 1 or more questions. A try is better than nothing!</h5>
+  <h4 id="scoreFraction"></h4>
+  <h4 id="scorePercentage"></h4>
+  <h4 id="feedback"></h4>
 
   <script src="quiz.js"></script>
 </body>

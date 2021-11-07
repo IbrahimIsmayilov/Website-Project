@@ -80,7 +80,7 @@ input {
   border-radius: 5px;
 }
 
-#submit-btn {
+#btn {
   border-radius: 5px;
   width: 120px;
   margin-bottom: 45px;
@@ -95,15 +95,19 @@ p {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#score-fraction {
+#scoreFraction {
   display:none;
 } 
 
-#score-percentage {
+#scorePercentage {
   display:none;
 }
 
-#missed-q {
+#feedback {
+  display:none;
+}
+
+#missedQ {
   display: none;
   font-size: 20px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;

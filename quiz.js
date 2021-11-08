@@ -13,15 +13,13 @@ let btnEl = document.getElementById("btn");
 let feedbackEl = document.getElementById("feedback");
 let missedQEl = document.getElementById("missedQ");
 
-// Global Variables
-scoreF = 0;
-
 // Event Listeners
 btnEl.addEventListener("click", results);
 
 // Event Function
 function results() {
 
+    let scoreF = 0;
     let question1 = questionEl1.value.toLowerCase();
     let question2 = questionEl2.value.toLowerCase();
     let question3 = questionEl3.value.toLowerCase();
@@ -82,24 +80,26 @@ function results() {
 
     scoreP = (scoreF / 4) * 100;
 
-    if (scoreF === 1) {
+    // Outputting a score
+    if (scoreF === 4) {
         scorefEl.innerHTML = scoreF + "/4";
         scorepEl.innerHTML = scoreP + "% ";
-        feedbackEl.innerHTML = "At least you tried."
-    } else if (scoreF === 2) {
+        feedbackEl.innerHTML = "Above and Beyond. Good Job."
+    } else if (scoreF === 3) {
         scorefEl.innerHTML = scoreF + "/4";
         scorepEl.innerHTML = scoreP + "% ";
         feedbackEl.innerHTML = "Not Bad."
-    } else if (scoreF === 3) {
+    } else if (scoreF === 2) {
         scorefEl.innerHTML = scoreF + "/4";
         scorepEl.innerHTML = scoreP + "% ";
         feedbackEl.innerHTML = "There is always room for improvement."
     } else {
         scorefEl.innerHTML = scoreF + "/4";
         scorepEl.innerHTML = scoreP + "% ";
-        feedbackEl.innerHTML = "Above and Beyond. Good Job.";
+        feedbackEl.innerHTML = "At least you tried.";
     }
     
+    // Check Blank Questions
     if (question1 === "" || question2 === "" || question3 === "" || question4 === "") {
             missedQEl.style.display = "block";
             scorefEl.style.display = "none";
@@ -112,7 +112,6 @@ function results() {
             missedQEl.style.display = "none";
         }
         
-    scoreF = 0;
 }
 
 
